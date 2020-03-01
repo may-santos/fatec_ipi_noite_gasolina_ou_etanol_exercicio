@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="seekbar_height">40dp</dimen>
+    <dimen name="elevation">4dp</dimen>
+    <dimen name="textview_padding">12dp</dimen>
+    <dimen name="sizeFontOpcao">20dp</dimen>
+    <dimen name="sizeImage">240dp</dimen>
+    <dimen name="fontTextSize">20dp</dimen>
+</resources>

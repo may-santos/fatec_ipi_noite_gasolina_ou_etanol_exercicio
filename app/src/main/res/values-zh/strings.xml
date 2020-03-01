@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">乙醇还是汽油？</string>
+    <string name="textViewGasolina">汽油价格：</string>
+    <string name="textViewEtanol">每升乙醇的价格：</string>
+    <string name="textMelhorGasolina">最好使用汽油</string>
+    <string name="textMelhorEtanol">最好使用乙醇</string>
+    <string name="resultadoTextView">更好地使用...</string>
+</resources>

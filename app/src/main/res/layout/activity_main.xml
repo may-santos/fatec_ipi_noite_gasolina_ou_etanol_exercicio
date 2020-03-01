@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:useDefaultMargins="true"
+    android:padding="20dp">
+
+
+    <TextView
+        android:id="@+id/gasolinaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="@dimen/fontTextSize"
+        android:text="@string/textViewGasolina"
+        android:layout_weight="1"/>
+
+
+    <SeekBar
+        android:id="@+id/precoGasolinaSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="fill_horizontal"
+        android:max="10"
+        android:progress="1"
+        android:layout_weight="2"/>
+
+    <TextView
+        android:id="@+id/valorGasolinaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="@dimen/fontTextSize"
+        android:gravity="center"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/etanolTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/textViewEtanol"
+        android:textSize="@dimen/fontTextSize"
+        android:layout_weight="1"/>
+
+
+    <SeekBar
+        android:id="@+id/precoEtanolSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="fill_horizontal"
+        android:max="10"
+        android:progress="1"
+        android:layout_weight="2"/>
+
+    <TextView
+        android:id="@+id/valorEtanolTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textSize="@dimen/fontTextSize" />
+
+    <TextView
+        android:id="@+id/opcaoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/result_background"
+        android:gravity="center"
+        android:text="@string/resultadoTextView"
+      android:textSize="@dimen/fontTextSize"
+        android:textColor="@color/textOpcao"
+        />
+
+
+    <ImageView
+        android:id="@+id/tipoCombustivelImageView"
+        android:layout_width="@dimen/sizeImage"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="10"
+        app:srcCompat="@drawable/etanol" />
+</LinearLayout>

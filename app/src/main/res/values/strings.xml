@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ethanol or gasoline?</string>
+    <string name="textViewGasolina">Price of liter of gasoline:</string>
+    <string name="textViewEtanol">Price of liter of ethanol:</string>
+    <string name="textMelhorGasolina">Better to use gasoline</string>
+    <string name="textMelhorEtanol">Better to use ethanol</string>
+    <string name="resultadoTextView">"Better to use ... "</string>
+</resources>
